@@ -1,0 +1,23 @@
+# BACA DULU SEBELUM INSTALL METASPLOIT
+
+install paket Metasploit yg biasa Error
+
+gem install bundle
+gem install bundler
+pip2 install bundler
+bundle install -j5
+bundle update
+bundle update nokogiri
+
+klau gak error Install paket di atas langsung run Metasploit
+
+klau Error nokogiri v.1.8.2 
+gem install nokogiri -- --use-system-libraries
+
+fix error nokogiri versi 1.8.2 :
+gem install nokogiri -v'1.8.2' -- --use-system-libraries
+
+
+
+
+

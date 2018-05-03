@@ -17,6 +17,8 @@ gem install nokogiri -- --use-system-libraries
 fix error nokogiri versi 1.8.2 :
 gem install nokogiri -v'1.8.2' -- --use-system-libraries
 
+Regard,,Boychongzen aka X-root
+
 
 
 

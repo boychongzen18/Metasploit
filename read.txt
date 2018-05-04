@@ -17,6 +17,15 @@ gem install nokogiri -- --use-system-libraries
 fix error nokogiri versi 1.8.2 :
 gem install nokogiri -v'1.8.2' -- --use-system-libraries
 
+untuk menjalankannya ketik
+
+mkdir -p $PREFIX/var/lib/postgresql
+initdb $PREFIX/var/lib/postgresql
+pg_ctl -D $PREFIX/var/lib/postgresql start
+msfconsole
+
+===========================================
+
 Regard,,Boychongzen aka X-root
 
 

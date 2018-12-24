@@ -1,7 +1,9 @@
 # Metasploit
 
-Run Termux 
+Eksekusi via Termux 
+
 bash Metasploit.sh
+
 
 My Youtube : https://www.youtube.com/channel/UCKdOPQ_iIXcqK17PB_2RMdQ
 

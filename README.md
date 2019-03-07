@@ -14,6 +14,10 @@ chmod +x msf.sh
 
 ./msf.sh
 
+chmod +x metasploit.sh
+
+./metasploit.sh
+
 ================================================================================
 
 My Youtube : https://www.youtube.com/channel/UCKdOPQ_iIXcqK17PB_2RMdQ

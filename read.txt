@@ -6,7 +6,7 @@ gem install bundle
 gem install bundler
 pip2 install bundler
 bundle install -j5
-bundle update
+gem update --system
 bundle update nokogiri
 
 klau gak error Install paket di atas langsung run Metasploit

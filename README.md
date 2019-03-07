@@ -1,6 +1,6 @@
-# Install Metasploit Fix Error
+# Install Metasploit dan Start Database Fix Error
 
-Eksekusi via Termux 
+Install Metasploit
 
 pkg update && pkg upgrade
 
@@ -13,6 +13,34 @@ cd Metasploit
 chmod +x metasploit.sh
 
 ./metasploit.sh
+
+================================================================================
+# BACA DULU SEBELUM INSTALL METASPLOIT
+
+Install Paket Metasploit Yg Biasa Error
+
+gem install bundle
+
+gem install bundler
+
+pip2 install bundler
+
+bundle install -j5
+
+gem update --system
+
+bundle update nokogiri
+
+================================================================================
+# Fix Start Database Error
+
+mkdir -p $PREFIX/var/lib/postgresql
+
+initdb $PREFIX/var/lib/postgresql
+
+pg_ctl -D $PREFIX/var/lib/postgresql start
+
+msfconsole
 
 ================================================================================
 

@@ -1,7 +1,5 @@
 # Install Metasploit dan Start Database Fix Error
 
-Install Metasploit
-
 pkg update && pkg upgrade
 
 pkg install git
@@ -44,11 +42,13 @@ msfconsole
 
 ================================================================================
 
-My Youtube : https://www.youtube.com/channel/UCKdOPQ_iIXcqK17PB_2RMdQ
+My Youtube    : https://www.youtube.com/channel/UCKdOPQ_iIXcqK17PB_2RMdQ
 
-My Website : http://hackingforlive.cf
+Link Tutorial :
 
-My Facebok : https://web.facebook.com/xroot.xroot.7
+My Website    : http://hackingforlive.cf,,https://hackingforlive.wordpress.com
+
+My Facebok    : https://web.facebook.com/xroot.xroot.7
 
 ================================================================================
 

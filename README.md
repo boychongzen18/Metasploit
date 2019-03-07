@@ -2,7 +2,17 @@
 
 Eksekusi via Termux 
 
-bash Metasploit.sh
+pkg update && pkg upgrade
+
+pkg install git
+
+git clone https://github.com/boychongzen18/Metasploit.git
+
+cd Metasploit
+
+chmod +x msf.sh
+
+./msf.sh
 
 
 My Youtube : https://www.youtube.com/channel/UCKdOPQ_iIXcqK17PB_2RMdQ

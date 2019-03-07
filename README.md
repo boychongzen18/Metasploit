@@ -10,10 +10,6 @@ git clone https://github.com/boychongzen18/Metasploit.git
 
 cd Metasploit
 
-chmod +x msf.sh
-
-./msf.sh
-
 chmod +x metasploit.sh
 
 ./metasploit.sh

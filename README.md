@@ -2,7 +2,7 @@
 
 pkg update && pkg upgrade
 
-pkg install git ruby wget python2 -y
+pkg install -y git ruby wget python2 php
 
 git clone https://github.com/boychongzen18/Metasploit.git
 
